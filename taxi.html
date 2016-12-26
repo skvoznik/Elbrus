@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -45,96 +46,70 @@
         </div>
     </nav>
     <div class="container mt-2">
-        <h4>Гостиницы и квартиры</h4>   
-    </div>
-    <div class="container mt-2">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h5>Горячие предложения</h5>
-                    </div>
-                </div>
-                <table class="table borderless sm-padding table-responsive">
-                    <tbody>
-                        <tr>
-                            <td>Вертикаль</td>
-                            <td>Номера от 1100/сутки</td>
-                        </tr>
-                        <tr>
-                          <td>Купол</td>
-                          <td>Номера от 900/сутки</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-sm-9">
+                <h4>Такси</h4>
             </div>
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h5>Акции</h5>
-                    </div>
-                </div>
-                <table class="table borderless sm-padding table-responsive">
-                    <tbody>
-                        <tr>
-                            <td>Когутай</td>
-                            <td>Бизнес-ланч от 360р</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-sm-3">
+                <span class="float-xs-right">
+                    <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal" data-target="#modal">Вы водитель?</button>
+                </span>
             </div>
-          </div>
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Информация</h4>
+                        </div>
+                        <div class="modal-body">
+                            Текст информации
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </div>
     </div>
-    <hr>
-    <div class="container mt-2">
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h5>Все Гостиницы и квартиры</h5>
-                <table class="table table-striped mt-2 table-responsive">
+                <table class="table table-striped table-responsive borderless">
                     <thead>
                         <tr>
-                            <th>Название</th>
-                            <th>Место</th>
+                            <th>Имя</th>
                             <th>Телефоны</th>
-                            <th>Доп. услуги</th>
+                            <th>Автомобили</th>
+                            <th>Местонахождение</th>
+                            <th>Доступен</th>
+                            <th>Звонить</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td>Сергей</td>
                             <td>
-                                <a href="http://www.hotelchyran.ru/">Чыран-Азау</a>
+                                <a href="tel:+7(938)775-82-81">+7(938)775-82-81</a>
                             </td>
+                            <td>ВАЗ 2109 (К123ЕН 07) 4 места</td>
                             <td>Азау</td>
                             <td>
-                                <a href="tel:+7(963)392-87-38">+7(963)392-87-38</a>
-                                <br>
-                                <a href="tel:+7(928)710-39-65">+7(928)710-39-65</a>
+                                <span class="tag tag-success">Работает</span>
                             </td>
-                            <td>хранилище для лыж/досок, бильярд</td>
+                            <td>с 13:00 до 23:00</td>
                         </tr>
                         <tr>
+                            <td>Сергей</td>
                             <td>
-                                <a href="http://www.esen.ru/">Эсен</a>
+                                <a href="tel:+7(938)775-82-81">+7(938)775-82-81</a>
                             </td>
-                            <td>Чегет</td>
+                            <td>ВАЗ 2109 (К123ЕН 07) 4 места</td>
+                            <td>Азау</td>
                             <td>
-                                <a href="tel:+7(86638)716-56">+7(86638)716-56</a>
-                                <br>
-                                <a href="tel:+7(928)708-48-07">+7(928)708-48-07</a>
+                                <span class="tag tag-success">Работает</span>
                             </td>
-                            <td>Wi-Fi, хранилище для лыж/досок, камин, сушилка</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://www.hotelozon.ru/cheget/about/index.php">Озон Чегет</a>
-                            </td>
-                            <td>Чегет</td>
-                            <td>
-                                <a href="tel:+7(86638)71777">+7(86638)71777</a>
-                                <br>
-                                <a href="tel:+7(928)083-96-33">+7(928)083-96-33</a>
-                            </td>
-                            <td>Wi-Fi, хранилище для лыж/досок, бильярд, платежны терминал</td>
+                            <td>с 13:00 до 23:00</td>
                         </tr>
                     </tbody>
                 </table>
