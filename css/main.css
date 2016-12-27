@@ -80,3 +80,7 @@ body {
 .nav-link.btn:hover {
 	color: #fff!important;
 }
+
+.phone-cell {
+	width: 170px!important;
+}
